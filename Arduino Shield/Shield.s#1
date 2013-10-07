@@ -4243,7 +4243,6 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <part name="R9" library="resistor" deviceset="R-EU_" device="R0805" value="240"/>
 <part name="750" library="resistor" deviceset="R-EU_" device="R0805" value="910"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="resistor" deviceset="R-EU_" device="R0805" value="240"/>
 </parts>
 <sheets>
 <sheet>
@@ -4288,7 +4287,6 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <instance part="R9" gate="G$1" x="91.44" y="71.12" rot="R180"/>
 <instance part="750" gate="G$1" x="78.74" y="58.42" rot="R270"/>
 <instance part="GND7" gate="1" x="78.74" y="43.18"/>
-<instance part="R10" gate="G$1" x="25.4" y="45.72" rot="R180"/>
 </instances>
 <busses>
 </busses>

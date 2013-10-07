@@ -1780,7 +1780,6 @@ design rules under a new name.</description>
 <element name="IC2" library="linear" package="TO220H" value="317T" x="81.28" y="77.47"/>
 <element name="R9" library="resistor" package="R0805" value="240" x="52.07" y="72.39" rot="MR0"/>
 <element name="750" library="resistor" package="R0805" value="910" x="55.88" y="63.5" rot="MR0"/>
-<element name="R10" library="resistor" package="R0805" value="240" x="2.54" y="-3.81"/>
 </elements>
 <signals>
 <signal name="SD_CS">
