@@ -1,4 +1,4 @@
-Arduino
+Arduino-Diec_Shield_schematic
 =======
 
 Schematics and boards
