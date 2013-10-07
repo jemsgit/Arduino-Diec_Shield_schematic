@@ -1,0 +1,18 @@
+avrdude -p atmega8 -c stk200 -e // סעטנאול קטן
+avrdude -p atmega8 -c stk200 -U hfuse:w:0xc0:m -U lfuse:w:0x9f:m // רü¸ל פü‏חû
+avrdude -p atmega8 -c stk200 -U flash:w:loader.hex // רü¸ל כמאהונ
+avrdude -p atmega8 -c usbasp -U lock:w:0x0F:m // כמקטל ףקאסעמך פכור ס כמאהונמל
+
+
+avrdude -p atmega8 -c usbasp -U hfuse:w:0xca:m -U lfuse:w:0xdf:m
+
+
+
+avrdude -p atmega8 -c usbasp -U flash:w:ATmegaBOOT-prod-firmware-2009-11-07.hex // רü¸ל כמאהונ
+
+
+avrdude -p atmega168p –c usbasp -U lock:w:0x3f:m
+avrdude -p atmega168p -c usbasp -e 
+avrdude -p atmega168p -c usbasp -U hfuse:w:0xdd:m -U lfuse:w:0xff:m // רü¸ל פü‏חû
+avrdude -p atmega168p -c usbasp -U flash:w:ATmegaBOOT_168_diecimila.hex
+avrdude -p atmega168p -c usbasp -U lock:w:0x0F:m
